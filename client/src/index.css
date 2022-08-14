@@ -1,0 +1,55 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body {
+  background-color: azure;
+}
+
+h5 {
+  margin: 20px 0 0;
+}
+.main {
+  margin: 80px auto;
+  padding: 30px 50px;
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 0 6px 1px rgb(182, 182, 182);
+}
+
+.links {
+  margin-top: 80px;
+  font-size: 16px;
+}
+
+
+@media (max-width: 600px){
+  h5 {
+    font-size: 16px;
+  }
+  .main {
+    width: 100%;
+  }
+  .links {
+    margin-top: 100px;
+  }
+  table {
+    border: 0;
+  }
+  table thead {
+    display: none;
+  }
+  table tr {
+    border-bottom: 2px solid #ddd;
+  }
+  table td {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    padding: 0;
+    border-bottom: 1px dotted #ccc;
+    border-right: 1px solid transparent;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+}
